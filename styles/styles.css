@@ -1,0 +1,336 @@
+/* Base Styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header Styles */
+
+/* Navbar */
+
+.nav-section {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 120px;
+    padding-top: 50px;
+}
+
+.nav-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu-div li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    list-style: none;
+    margin: 0px 15px;
+}
+
+/* Heading and Banner Styles */
+
+.heading-banner-parent {
+    margin: 50px 120px;
+    width: 740px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.heading-section p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0px 300px;
+}
+
+.headng-title {
+    font-family: "Poppins", sans-serif;
+    color: #131313;
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.heading-section p {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+}
+
+.banner img {
+    width: 70%;
+    height: 350px;
+    margin: 50px 200px;
+}
+
+/* Main Styles */
+
+/* Feature Styles Part 01 Styles*/
+
+.grid-image-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 24px;
+    grid-row-gap: 10px;
+    gap: 10px;
+    margin: 50px 300px;
+    margin-right: 1px;
+}
+
+.grid-image-parent img {
+    height: 200px;
+    width: 200px;
+}
+
+.flex {
+    display: flex;
+}
+
+.feature-description {
+    margin: 150px 50px;
+}
+
+.feature-description h3 {
+    padding-bottom: 20px;
+}
+
+.feature-description p {
+    color: #727272;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.btn-explore {
+    background-color: #FF900E;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    width: 150px;
+}
+
+/* Features Section Part 02 */
+
+.all-features-parent,
+.text-div-parent {
+    margin: 50px 250px;
+    display: flex;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.all-features-parent img {
+    width: 400px;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.all-features-parent h3,
+.text-div-parent h3,
+.sponsor h3 {
+    color: #131313;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 5px;
+}
+
+.all-features-parent h3 {
+    border-left: 5px solid #FF900E;
+    padding-left: 8px;
+}
+
+.all-features-parent h4 {
+    color: #131313;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.all-features-parent p,
+.text-div-parent p,
+.sponsor p {
+    color: #727272;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.feature-sub-description {
+    margin: 5px 10px;
+}
+
+.btn-experience{
+    background-color: #FF900E;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    transform: translate(0%, -65%);
+}
+
+/* Features Section Part 03 */
+/* Additional Section */
+
+.video-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.video-section h3 {
+    color: #131313;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Fact Section Styles */
+
+.icon-div-parent {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 200px;
+    margin-bottom: 100px;
+}
+
+.icon-div {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+.icon-div img {
+    width: 15%;
+    margin-top: 40px;
+}
+
+.icon-div-parent .icon-div {
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+}
+
+.icon-div h3 {
+    font-size: 20px;
+    color: #424242;
+    font-weight: 1000;
+}
+
+.icon-div p {
+    font-size: 13px;
+    color: #424242;
+    font-weight: 1000;
+    padding-top: 5px;
+}
+
+
+/* Sponsor Styles */
+
+.sponsor {
+    text-align: center;
+    margin: 20px;
+}
+
+.sponsor-image-parent {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 170px;
+}
+
+.sponsor-image-parent img {
+    width: 70px;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #FFF4E7;
+    height: 50px;
+    margin: 60px 170px;
+
+}
+
+.footer-description {
+    text-align: center;
+    color: #424242;
+    padding-top: 15px;
+}
+
+
+
+/* Responsive Media Query Styles */
+
+/* Small Screen */
+
+@media only screen and (max-width:576) {
+    .flex, .all-features-parent, .icon-div-parent, .sponsor-image-parent{
+        flex-direction: column;
+    }
+
+    .headng-title, .nav-title{
+        font-size: 20px;
+    }
+    .banner img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .grid-image-parent{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 50px 100px;
+    }
+
+    .all-features-parent{
+        margin: 0px;
+    }
+
+    .icon-div-parent{
+        margin: 20px 100px;
+    }
+
+    .sponsor-image-parent{
+        align-items: center;
+        gap: 20px;
+    }
+}
